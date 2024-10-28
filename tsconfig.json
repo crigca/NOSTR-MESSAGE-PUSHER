@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",                       // Define la versión de ECMAScript para la salida.
+    "module": "CommonJS",                     // Usa CommonJS para los módulos.
+    "strict": true,                           // Habilita todas las comprobaciones estrictas.
+    "esModuleInterop": true,                  // Habilita la interoperabilidad con módulos ES6.
+    "skipLibCheck": true,                     // Omite la comprobación de los archivos de declaración.
+    "forceConsistentCasingInFileNames": true, // Fuerza el uso coherente de mayúsculas y minúsculas en los nombres de archivos.
+    "outDir": "./dist",                       // Directorio de salida para los archivos compilados.
+    "rootDir": "./src",                       // Directorio raíz para los archivos de entrada.
+    "resolveJsonModule": true,                // Permite importar archivos JSON.
+    "moduleResolution": "node"                // Utiliza la resolución de módulos de Node.js.
+  },
+  "include": ["src/**/*"],                    // Incluye todos los archivos dentro de `src`.
+  "exclude": ["node_modules", "dist"]         // Excluye `node_modules` y `dist`.
+}
