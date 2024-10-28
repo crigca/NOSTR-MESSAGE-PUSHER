@@ -3,6 +3,8 @@ NOSTR-MESSAGE-PUSHER
 NOSTR-MESSAGE-PUSHER is a lightweight TypeScript project designed to simplify the process of sending messages to Nostr relays. This tool allows users to quickly create, sign, and publish text messages across any Nostr-compatible relay using their private keys. Ideal for automating message distribution and experimenting with the Nostr protocol.
 
 
+![Logo]https://github.com/SovrynMatt/Nostr-Website-Button-Design?search=1()
+
 
 🌟 Features
 
